@@ -11,7 +11,7 @@ function addDivs() {
 
 
 function newGrid() {
-    let input = prompt("What width you want?");
+    let input = prompt("Width?");
     let size = parseInt(input);
     document.getElementById('container').innerHTML = "";
     let divTotal = size * size

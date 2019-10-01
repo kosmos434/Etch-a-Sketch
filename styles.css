@@ -1,3 +1,9 @@
+html {
+    background: #d9a7c7;
+    background: -webkit-linear-gradient(to right, #d9a7c7, #fffcdc);
+    background: linear-gradient(to right, #d9a7c7, #fffcdc);
+}
+
 #container {
     margin: 0 auto;
     display: grid;
@@ -10,14 +16,14 @@
 }
 
 .littleDiv {
-    border: 1px solid salmon;
-    background-color: wheat;
+    border: 1px solid #d9a7c7;
+    background-color: #fffcdc;
 }
 
 h1 {
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    color: rgb(59, 116, 155);
 }
 
 .btn {
